@@ -1,0 +1,40 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+header{
+    height: auto;
+    background: #000000;
+    color: #ffffff;
+}
+header h1{
+    margin: 0%;
+    padding: 5%;
+    font-size: 1000%;
+    font-family: monospace;
+    text-align: center;
+}
+#top ul{
+    padding: 0%;
+    margin: 0%;
+    list-style: none;
+    text-align: center;
+}
+#top ul li{
+    border-top: solid 2px #ffffff;
+    padding: 3%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 200%;
+}
+#top ul li a, #top ul li a:visited{
+    color: #ffffff;
+    text-decoration: none;
+}
+i.fa-ellipsis-h{
+    display: block;
+    padding: 3%;
+    color: #ffffff;
+    font-size: 200%;
+    text-align: center;
+    border-top: solid 2px #ffffff;
+}
