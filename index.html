@@ -5,19 +5,22 @@
         <title>Iftakhar Kaunain Ashhar</title>
         <link rel="stylesheet" href="css/style.css">
         <script src="https://kit.fontawesome.com/8808911dd5.js" crossorigin="anonymous"></script>
+        <script src="js/portfolio.js"></script>
     </head>
     <body>
         <header>
             <h1>Iftakhar <br> Kaunain <br> Ashhar</h1>
-            <nav id="top">
+            <nav id="top" class="nav-hide">
                 <ul>
                     <li><a href="#home">Home</a></li>
                     <li><a href="#projects">Projects</a></li>
+                    <li><a href="#certification">Certifications</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
-            <i class="fas fa-ellipsis-h"></i>
-            <!-- <button class="hireme">Hire Me!</button> -->
+
+            <span id="dots"><i class="fas fa-ellipsis-h" onclick="topNavOpen()"></i></span>
+            <span id="cross" class="nav-hide"><i class="fas fa-times" onclick="topNavClose()"></i></span>
         </header>
         <main>
             <section id="home">
@@ -32,9 +35,14 @@
                 <article>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora officiis, ipsam repudiandae ea maxime facere deserunt sint, harum adipisci enim fugiat repellat laborum esse inventore quos officia cupiditate, voluptas voluptate earum sit cum? Corrupti molestias dolorem, reiciendis error velit cumque inventore enim. Nostrum consequuntur saepe labore eveniet sunt debitis quo voluptates atque maxime, fugiat corrupti error facere totam nesciunt doloribus quos tenetur eaque esse incidunt rem explicabo ea perferendis cumque? Eos, esse tempore! Molestias itaque atque voluptatem culpa accusamus illum, ab, adipisci fuga enim est id sequi obcaecati odio veritatis. Sunt neque, voluptatem quo quae eveniet assumenda quod optio eos!</p>
                 </article>
-                <div class="carousel">
-
-                </div>
+                
+            </section>
+            <section id="certifications">
+                <h2>My Projects</h2>
+                <article>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora officiis, ipsam repudiandae ea maxime facere deserunt sint, harum adipisci enim fugiat repellat laborum esse inventore quos officia cupiditate, voluptas voluptate earum sit cum? Corrupti molestias dolorem, reiciendis error velit cumque inventore enim. Nostrum consequuntur saepe labore eveniet sunt debitis quo voluptates atque maxime, fugiat corrupti error facere totam nesciunt doloribus quos tenetur eaque esse incidunt rem explicabo ea perferendis cumque? Eos, esse tempore! Molestias itaque atque voluptatem culpa accusamus illum, ab, adipisci fuga enim est id sequi obcaecati odio veritatis. Sunt neque, voluptatem quo quae eveniet assumenda quod optio eos!</p>
+                </article>
+                
             </section>
             <section id="contact">
                 <h2>Contact Me</h2>

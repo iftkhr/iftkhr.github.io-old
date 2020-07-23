@@ -30,7 +30,11 @@ header h1{
     color: #ffffff;
     text-decoration: none;
 }
-i.fa-ellipsis-h{
+#top ul li a:focus, #top ul li a:hover{
+    color: #000000;
+    background: #ffffff;
+}
+i.fa-ellipsis-h, i.fa-times{
     display: block;
     padding: 3%;
     color: #ffffff;
@@ -38,3 +42,7 @@ i.fa-ellipsis-h{
     text-align: center;
     border-top: solid 2px #ffffff;
 }
+.nav-hide{
+    display: none;
+}
+
