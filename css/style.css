@@ -4,7 +4,7 @@ body{
 }
 header{
     height: auto;
-    background: #000000;
+    background: #70a5a7;
     color: #ffffff;
 }
 header h1{
@@ -13,18 +13,22 @@ header h1{
     font-size: 1000%;
     font-family: monospace;
     text-align: center;
+    text-shadow: 0px 12px #000000;
 }
+/* top navigation start */
 #top ul{
     padding: 0%;
     margin: 0%;
     list-style: none;
     text-align: center;
+    text-shadow: 2px 4px #000000;
 }
 #top ul li{
     border-top: solid 2px #ffffff;
     padding: 3%;
     font-family: 'Courier New', Courier, monospace;
-    font-size: 200%;
+    font-size: 300%;
+    margin: 0%;
 }
 #top ul li a, #top ul li a:visited{
     color: #ffffff;
@@ -33,16 +37,108 @@ header h1{
 #top ul li a:focus, #top ul li a:hover{
     color: #000000;
     background: #ffffff;
+    text-shadow: none;
 }
 i.fa-ellipsis-h, i.fa-times{
     display: block;
     padding: 3%;
     color: #ffffff;
-    font-size: 200%;
+    font-size: 300%;
     text-align: center;
     border-top: solid 2px #ffffff;
+    text-shadow: 0px 5px #000000;
 }
 .nav-hide{
     display: none;
 }
-
+/* top navigation end */
+/* home section */
+#home{
+    margin: 5%;
+    padding: 5%;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+    font-size: 250%;
+    text-align: center;
+}
+#home h2{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 500%;
+    font-weight: lighter;
+    margin: 0 auto;
+}
+#home img{
+    display: block;
+    padding: 0% 0% 5% 0%;
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+}
+/* home section ends */
+/* project section */
+#projects{
+    margin: 5%;
+    padding: 5%;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+    font-size: 250%;
+    text-align: center;
+}
+#projects h2{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 250%;
+    font-weight: lighter;
+    padding: 5% 0%;
+    margin: 0%;
+    border-bottom: 2px solid #70a5a7;
+    border-top: 2px solid #70a5a7;
+}
+/* project section ends */
+#projects img, #certifications a img{
+    width: 100%;
+}
+/* certification section */
+#certifications{
+    margin: 5%;
+    padding: 5%;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+    font-size: 250%;
+    text-align: center;
+}
+#certifications h2{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 250%;
+    font-weight: lighter;
+    padding: 5% 0%;
+    margin: 0%;
+    border-bottom: 2px solid #70a5a7;
+    border-top: 2px solid #70a5a7;
+}
+/* certification section ends */
+#contact{
+    margin: 5%;
+    padding: 5%;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+    font-size: 250%;
+    text-align: center;
+}
+#contact h2{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 250%;
+    font-weight: lighter;
+    padding: 5% 0%;
+    margin: 0%;
+    border-bottom: 2px solid #70a5a7;
+    border-top: 2px solid #70a5a7;
+}
+iframe{
+    margin: 5% 0%;
+    width: 100%;
+    height: 750px;
+}
