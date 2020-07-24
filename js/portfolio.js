@@ -1,15 +1,25 @@
 // top navigation bar on mobile
 function topNavOpen(){
-document.getElementById("top").classList.remove("nav-hide");
-document.getElementById("dots").classList.add("nav-hide");
-document.getElementById("cross").classList.remove("nav-hide");
+    document.getElementById("top").classList.remove("hide");
+    document.getElementById("dots").classList.add("hide");
+    document.getElementById("cross").classList.remove("hide");
 }
 function topNavClose(){
-    document.getElementById("top").classList.add("nav-hide");
-    document.getElementById("dots").classList.remove("nav-hide");
-    document.getElementById("cross").classList.add("nav-hide");
+    document.getElementById("top").classList.add("hide");
+    document.getElementById("dots").classList.remove("hide");
+    document.getElementById("cross").classList.add("hide");
 }
 
-// carousel for projects and certificates on mobile
-
-
+// go to top arrow
+function upArrowHide(){
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("up").classList.remove("hide");
+    }
+    else{
+        document.getElementById("up").classList.add("hide");
+    }
+}
+function upArrow(){
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}

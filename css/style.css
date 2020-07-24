@@ -48,10 +48,19 @@ i.fa-ellipsis-h, i.fa-times{
     border-top: solid 2px #ffffff;
     text-shadow: 0px 5px #000000;
 }
-.nav-hide{
+.hide{
     display: none;
 }
 /* top navigation end */
+i.fa-arrow-circle-up{
+    position: fixed;
+    top: 70%;
+    right: 0%;
+    color: #70a5a7;
+    opacity: 0.5;
+    font-size: 300%;
+    text-shadow: 0px 5px #000000;
+}
 /* home section */
 #home{
     margin: 5%;
@@ -119,6 +128,11 @@ i.fa-ellipsis-h, i.fa-times{
     border-top: 2px solid #70a5a7;
 }
 /* certification section ends */
+i.fa-dot-circle{
+    color: #70a5a7;
+    padding: 5%;
+}
+/* contact section */
 #contact{
     margin: 5%;
     padding: 5%;
@@ -137,8 +151,47 @@ i.fa-ellipsis-h, i.fa-times{
     border-bottom: 2px solid #70a5a7;
     border-top: 2px solid #70a5a7;
 }
-iframe{
-    margin: 5% 0%;
+#contact form{
+    margin: 5%;
+    padding: 5%;
+    font-size: 152.5%;
+}
+#name, #email, #query, #submit{
+    margin: 8% auto;
+    border: 3px solid #70a5a7;
     width: 100%;
-    height: 750px;
+    height: auto;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 100%;
+    box-shadow: 0px 5px#000000;
+}
+/* contact section ends */
+/* footer section */
+footer{
+    height: auto;
+    background: #70a5a7;
+    color: #ffffff;
+    margin: 0%;
+    padding: 5%;
+    font-size: 250%;
+    font-family: monospace;
+    text-align: center;
+    text-shadow: 0px 6px #000000;
+}
+footer ul{
+    padding: 0%;
+    margin: 0%;
+    list-style: none;
+    text-align: center;
+    text-shadow: 2px 4px #000000;
+}
+footer ul li{
+    display: inline-block;
+    padding: 0% 5%;
+    margin: 0% 5%;
+}
+i.fa-linkedin-in, i.fa-instagram, i.fa-github{
+    color: #ffffff;
+    font-size: 250%;
+    text-shadow: 0px 5px #000000;
 }
