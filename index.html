@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="utf-8">
+        <meta charset="utf-8" name="viewport" content="width=device-width">
         <title>Iftakhar Kaunain Ashhar</title>
         <link rel="stylesheet" href="css/style.css">
     </head>
-    <body onscroll="upArrowHide()">
+    <body onscroll="upArrowHide(), menuHide()">
         <header>
-            <h1>Iftakhar <br> Kaunain <br> Ashhar</h1>
-            <nav id="top" class="hide">
+            <h1>Iftakhar<br>Kaunain<br>Ashhar</h1>
+            <nav id="top" class="hide show-lg-scrn">
                 <ul>
                     <li><a href="#home">Home</a></li>
                     <li><a href="#projects">Projects</a></li>
@@ -16,8 +16,8 @@
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
-            <span id="dots"><i class="fas fa-ellipsis-h" onclick="topNavOpen()"></i></span>
-            <span id="cross" class="hide"><i class="fas fa-times" onclick="topNavClose()"></i></span>
+            <span id="dots" class="hide-lg-scrn"><i class="fas fa-ellipsis-h" onclick="topNavOpen()"></i></span>
+            <span id="cross" class="hide hide-lg-scrn"><i class="fas fa-times" onclick="topNavClose()"></i></span>
         </header>
         <main>
             <section id="home">
@@ -69,18 +69,20 @@
                 <h2>Contact Me</h2>
                 <p>Drop me a message and I will get back to you!</p>
                 <form action="" method="post">
-                    <label for="name">Name:</label><br>
-                    <input id="name" name="name" size="50"><br>
-                    <label for="email">Email:</label><br>
-                    <input id="email" name="email" size="50"><br>
-                    <label for="query">Query:</label><br>
-                    <textarea id="query" name="query" rows="10" cols="30"></textarea>
+                    <label for="name"></label><br>
+                    <input id="name" name="name" placeholder="Name" size="50" required><br>
+                    <label for="email"></label><br>
+                    <input id="email" name="email" placeholder="Email" size="50" required><br>
+                    <label for="query"></label><br>
+                    <textarea id="query" name="query" placeholder="Query" rows="10" cols="30"></textarea><br>
                     <input id="submit" type="button" value="Submit">
                 </form>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d112827.55755419622!2d78.01863790643449!3d27.90623324942163!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3974a48686459c8b%3A0x95d967276d323613!2sAligarh%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1595690874923!5m2!1sen!2sin" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
             </section>
         </main>
         <footer>
                 <ul>
+                    <li><a href="mailto:iftakhar.ashhar@gmail.com" target="_blank"><i class="far fa-envelope"></i></a></li>
                     <li><a href="https://www.linkedin.com/in/ikashhar/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
                     <li><a href="https://www.instagram.com/iftakhar.ashhar/" target="_blank"><i class="fab fa-instagram"></i></a></li>
                     <li><a href="https://github.com/iftkhr" target="_blank"><i class="fab fa-github"></i></a></li>

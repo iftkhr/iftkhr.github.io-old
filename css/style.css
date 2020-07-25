@@ -3,17 +3,19 @@ body{
     padding: 0%;
 }
 header{
+    width: 100%;
     height: auto;
     background: #70a5a7;
     color: #ffffff;
+    box-shadow: 0px 0px 10px #000000;
 }
 header h1{
     margin: 0%;
     padding: 5%;
-    font-size: 1000%;
+    font-size: 500%;
     font-family: monospace;
     text-align: center;
-    text-shadow: 0px 12px #000000;
+    text-shadow: 0px 5px 10px #000000;
 }
 /* top navigation start */
 #top ul{
@@ -21,32 +23,25 @@ header h1{
     margin: 0%;
     list-style: none;
     text-align: center;
-    text-shadow: 2px 4px #000000;
+    text-shadow: 0px 0px 10px #000000;
 }
 #top ul li{
-    border-top: solid 2px #ffffff;
     padding: 3%;
     font-family: 'Courier New', Courier, monospace;
-    font-size: 300%;
+    font-size: 150%;
     margin: 0%;
 }
 #top ul li a, #top ul li a:visited{
     color: #ffffff;
     text-decoration: none;
 }
-#top ul li a:focus, #top ul li a:hover{
-    color: #000000;
-    background: #ffffff;
-    text-shadow: none;
-}
 i.fa-ellipsis-h, i.fa-times{
     display: block;
     padding: 3%;
     color: #ffffff;
-    font-size: 300%;
+    font-size: 200%;
     text-align: center;
-    border-top: solid 2px #ffffff;
-    text-shadow: 0px 5px #000000;
+    text-shadow: 0px 0px 10px #000000;
 }
 .hide{
     display: none;
@@ -54,12 +49,12 @@ i.fa-ellipsis-h, i.fa-times{
 /* top navigation end */
 i.fa-arrow-circle-up{
     position: fixed;
-    top: 70%;
-    right: 0%;
+    top: 75%;
+    right: 5%;
     color: #70a5a7;
     opacity: 0.5;
-    font-size: 300%;
-    text-shadow: 0px 5px #000000;
+    font-size: 200%;
+    text-shadow: 0px 0px 10px #000000;
 }
 /* home section */
 #home{
@@ -67,22 +62,24 @@ i.fa-arrow-circle-up{
     padding: 5%;
     font-family: 'Courier New', Courier, monospace;
     font-weight: lighter;
-    font-size: 250%;
+    font-size: 150%;
     text-align: center;
+    align-content: center;
 }
 #home h2{
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
-    font-size: 500%;
+    font-size: 200%;
     font-weight: lighter;
-    margin: 0 auto;
+    margin: 3% auto;
 }
 #home img{
     display: block;
     padding: 0% 0% 5% 0%;
-    width: 100%;
-    height: 100%;
+    width: 80%;
+    max-width: 250px;
     border-radius: 100%;
+    margin: 0% auto;
 }
 /* home section ends */
 /* project section */
@@ -91,14 +88,13 @@ i.fa-arrow-circle-up{
     padding: 5%;
     font-family: 'Courier New', Courier, monospace;
     font-weight: lighter;
-    font-size: 250%;
+    font-size: 150%;
     text-align: center;
 }
 #projects h2{
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
-    font-size: 250%;
-    font-weight: lighter;
+    font-size: 100%;
     padding: 5% 0%;
     margin: 0%;
     border-bottom: 2px solid #70a5a7;
@@ -114,14 +110,13 @@ i.fa-arrow-circle-up{
     padding: 5%;
     font-family: 'Courier New', Courier, monospace;
     font-weight: lighter;
-    font-size: 250%;
+    font-size: 150%;
     text-align: center;
 }
 #certifications h2{
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
-    font-size: 250%;
-    font-weight: lighter;
+    font-size: 100%;
     padding: 5% 0%;
     margin: 0%;
     border-bottom: 2px solid #70a5a7;
@@ -134,36 +129,43 @@ i.fa-dot-circle{
 }
 /* contact section */
 #contact{
-    margin: 5%;
-    padding: 5%;
+    margin: 5% auto;
+    padding: 5% 0%;
     font-family: 'Courier New', Courier, monospace;
     font-weight: lighter;
-    font-size: 250%;
+    font-size: 150%;
     text-align: center;
+    width: 80%;
 }
 #contact h2{
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
-    font-size: 250%;
-    font-weight: lighter;
+    font-size: 100%;
     padding: 5% 0%;
     margin: 0%;
     border-bottom: 2px solid #70a5a7;
     border-top: 2px solid #70a5a7;
 }
 #contact form{
-    margin: 5%;
-    padding: 5%;
-    font-size: 152.5%;
+    margin: 0% 5%;
+    padding: 0% 5%;
+    font-size: 100%;
 }
 #name, #email, #query, #submit{
-    margin: 8% auto;
-    border: 3px solid #70a5a7;
+    margin: 2% auto;
+    border: 1px solid #70a5a7;
     width: 100%;
-    height: auto;
+    max-width: 400px;
     font-family: 'Courier New', Courier, monospace;
     font-size: 100%;
-    box-shadow: 0px 5px#000000;
+    box-shadow: 0px 0px 10px #000000;
+    padding: 0%;
+}
+iframe{
+    width: 80%;
+    height: 250px;
+    margin: 5%;
+    box-shadow: 0px 0px 10px #000000;
 }
 /* contact section ends */
 /* footer section */
@@ -171,27 +173,101 @@ footer{
     height: auto;
     background: #70a5a7;
     color: #ffffff;
-    margin: 0%;
     padding: 5%;
-    font-size: 250%;
+    font-size: 100%;
     font-family: monospace;
     text-align: center;
-    text-shadow: 0px 6px #000000;
+    text-shadow: 0px 2px 10px #000000;
+    box-shadow: 0px 0px 10px #000000;
 }
 footer ul{
     padding: 0%;
     margin: 0%;
     list-style: none;
     text-align: center;
-    text-shadow: 2px 4px #000000;
 }
 footer ul li{
     display: inline-block;
-    padding: 0% 5%;
-    margin: 0% 5%;
+    padding: 0% 3%;
+    margin: 0% 4%;
 }
-i.fa-linkedin-in, i.fa-instagram, i.fa-github{
+i.fa-linkedin-in, i.fa-instagram, i.fa-github, i.fa-envelope{
     color: #ffffff;
-    font-size: 250%;
-    text-shadow: 0px 5px #000000;
+    font-size: 200%;
+    text-shadow: 0px 0px 10px #000000;
+}
+@media all and (min-width:700px){
+    #top ul li{
+        display: inline-block;
+        padding: 3%;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 150%;
+        margin: 0%;
+    }
+    .show-lg-scrn{
+        display: block;
+    }
+    .hide-lg-scrn{
+        display: none;
+    }
+}
+@media all and (min-width:900px){
+     header{
+        width: 40%;
+        max-width: 350px;
+    }
+    #top{
+        width: 100%;
+        position: fixed;
+        top: 0%;
+        right: 0%;
+        background: #70a5a7;
+        box-shadow: 0px 0px 10px #000000;
+        z-index: -1;
+    } 
+    #top ul{
+        margin: 0% 0% 0% 30%;
+    }
+    #top ul li{
+        display: inline-block;
+        padding: 2%;
+    }
+    #top ul li a:hover, #top ul li a:focus{
+        font-weight: 600;
+    }
+    i.fa-arrow-circle-up{
+        display: none;
+    }
+    #home{
+        font-size: 150%;
+        margin: 0% 5%;
+        text-align: left;
+    }
+    #home h2{
+        display: inline-block;
+        text-align: left;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 200%;
+        font-weight: lighter;
+        margin: 0% 0% 0% 11.5%;
+    }
+    #home p{
+        margin: 2% 0% 0% 35%;
+        padding: 0%;
+    }
+    #home img{
+        float: left;
+        margin: 0% 2%;
+    }
+    #contact form{
+        text-align: left;
+        float: left;
+    }
+    iframe{
+        width: 30%;
+        height: 250px;
+        margin: 10% 5%;
+        box-shadow: 0px 0px 10px #000000;
+        display: inline-block;
+    }
 }

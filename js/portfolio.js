@@ -23,3 +23,10 @@ function upArrow(){
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
 }
+function menuHide(){
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("top").classList.add("hide");
+        document.getElementById("dots").classList.remove("hide");
+        document.getElementById("cross").classList.add("hide");
+    }
+}
