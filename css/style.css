@@ -211,7 +211,7 @@ i.fa-linkedin-in, i.fa-instagram, i.fa-github, i.fa-envelope{
         display: none;
     }
 }
-@media all and (min-width:900px){
+@media all and (min-width:1000px){
      header{
         width: 40%;
         max-width: 350px;
