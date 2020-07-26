@@ -204,70 +204,56 @@ i.fa-linkedin-in, i.fa-instagram, i.fa-github, i.fa-envelope{
         font-size: 150%;
         margin: 0%;
     }
-    .show-lg-scrn{
+    .show-md-scrn{
         display: block;
     }
-    .hide-lg-scrn{
+    .hide-md-scrn{
         display: none;
     }
 }
 @media all and (min-width:1000px){
-     header{
-        width: 40%;
-        max-width: 350px;
+    main{
+        width: 70%;
+        float: right;
+        margin: 0% 0% 0% 10%;
     }
-    #top{
-        width: 100%;
+    header{
+        width: 25%;
+        min-width: 350px;
+        height: 100vh;
         position: fixed;
         top: 0%;
-        right: 0%;
-        background: #70a5a7;
-        box-shadow: 0px 0px 10px #000000;
-        z-index: -1;
-    } 
-    #top ul{
-        margin: 0% 0% 0% 30%;
+        left: 0%;
     }
     #top ul li{
-        display: inline-block;
-        padding: 2%;
+        display: block;
+        padding: 5%;
     }
     #top ul li a:hover, #top ul li a:focus{
-        font-weight: 600;
+        font-weight: bold;
     }
     i.fa-arrow-circle-up{
         display: none;
     }
-    #home{
-        font-size: 150%;
-        margin: 0% 5%;
-        text-align: left;
+    .hide-lg-scrn{
+        display: none;
+    }
+    .show-lg-scrn{
+        display: block;
+    }
+    #top ul:nth-child(2){
+        margin: 20% 0%;
+    }
+    #top ul:nth-child(2) li{
+        display: inline-block;
+        font-size: 100%;
     }
     #home h2{
-        display: inline-block;
-        text-align: left;
-        font-family: 'Courier New', Courier, monospace;
+        font-size: 300%;
+        margin: 0% 0% 3% 0%;
+    }
+    #projects h2, #certifications h2, #contact h2{
         font-size: 200%;
         font-weight: lighter;
-        margin: 0% 0% 0% 11.5%;
-    }
-    #home p{
-        margin: 2% 0% 0% 35%;
-        padding: 0%;
-    }
-    #home img{
-        float: left;
-        margin: 0% 2%;
-    }
-    #contact form{
-        text-align: left;
-        float: left;
-    }
-    iframe{
-        width: 30%;
-        height: 250px;
-        margin: 10% 5%;
-        box-shadow: 0px 0px 10px #000000;
-        display: inline-block;
     }
 }
